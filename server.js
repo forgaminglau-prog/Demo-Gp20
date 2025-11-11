@@ -6,8 +6,8 @@ const path = require('path');
 
 const app = express();
 const port = process.env.PORT || 3000;
-const mongoUrl = process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017';
-const dbName = process.env.DB_NAME || 'inventoryDB';
+const mongoUrl = 'mongodb+srv://s1354887_db_user:RemRem%40good@cluster0.dsljopd.mongodb.net/?appName=Cluster0';
+const dbName = 'inventoryDB';
 
 let db, itemsCollection;
 
