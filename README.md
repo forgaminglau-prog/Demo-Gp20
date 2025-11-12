@@ -129,7 +129,7 @@ curl https://cloud-demo-group-20.onrender.com/api/items/{item_id}
 curl https://cloud-demo-group-20.onrender.com/api/items
 ```
 
-Then manually check for `"name": "YourName"` in the response.
+
 
 ---
 
