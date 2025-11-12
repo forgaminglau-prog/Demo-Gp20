@@ -1,0 +1,25 @@
+# Base URL
+https://cloud-demo-group-20.onrender.com/api/items
+
+
+# 1. Create an item (POST)
+curl -X POST https://cloud-demo-group-20.onrender.com/api/items \
+-H "Content-Type: application/json" \
+-d '{"name": "Apple", "quantity": 5}'
+
+
+# 2. Read all items (GET)
+curl https://cloud-demo-group-20.onrender.com/api/items
+
+# 3. Read item by ID (GET)
+curl https://cloud-demo-group-20.onrender.com/api/items/REPLACE_WITH_ITEM_ID
+
+#4. Edit item
+curl -X PUT https://cloud-demo-group-20.onrender.com/api/items/69143b381709608665f0732e \
+-H "Content-Type: application/json" \
+-d '{"name": "Banana", "quantity": 10}'
+
+
+# 5. Delete item by ID (DELETE)
+curl -X DELETE https://cloud-demo-group-20.onrender.com/api/items/REPLACE_WITH_ITEM_ID
+
