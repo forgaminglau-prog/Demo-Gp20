@@ -106,7 +106,7 @@ curl https://cloud-demo-group-20.onrender.com/api/items
 ### Update item
 
 ```bash
-curl -X PUT https://cloud-demo-group-20.onrender.com/api/items/6913532c2e55e6e194c6e1cb\
+curl -X PUT https://cloud-demo-group-20.onrender.com/api/items/{item_id}\
 -H "Content-Type: application/json" \
 -d '{"name":"Banana","quantity":20}'
 ```
