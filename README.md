@@ -7,10 +7,10 @@
 	└── README.md  (project info and instructions)
 # Inventory Management System (COMP S381F)
 - Group 20 : 
-- 13140568
-- 13548875
-- 13649730
-- 13515174
+- 13140568 Yu Ching Ting
+- 13548875 Lau Wai Shun
+- 13649730 Chung Ka Yuet
+- 13515174 Kan Tsz Hong Michael
 ## Description
 A simple Inventory Management System using Node.js, Express.js, MongoDB, and EJS. It supports user login/logout, item CRUD operations, and session management.
 
@@ -54,10 +54,15 @@ A simple Inventory Management System using Node.js, Express.js, MongoDB, and EJS
 #### 4. Access the app in the browser at:
     http://localhost:3000/login
 
-## Userguide 
+## Operation guides 
 - Login with username `admin` and password `password`.
 - Add, edit, and delete inventory items.
-- Logout using the "Logout" link.
+- Logout using the "Logout" button.
+- Can randomly generate 5/100 items.
+
+## Cloud-based server URL
+- https://cloud-demo-group-20.onrender.com/
+
 
 ## Notes
 - This project uses a hardcoded user for demonstration only.
@@ -105,7 +110,7 @@ Options:
 4. Delete item by ID
 5. Search item by ID or name
 
-## cURL Commands
+## CURL Commands
 
 ### Create item
 
