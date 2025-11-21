@@ -36,6 +36,10 @@ MongoClient.connect(mongoUrl)
 
 // Simple hardcoded user for login demo
 const users = { admin: 'password' };
+const users = {
+  admin: 'password',
+  user: 'user'
+};
 
 // Middleware to check if user logged in
 function checkAuth(req, res, next) {
