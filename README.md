@@ -4,7 +4,6 @@
 	├── package.json
 	├── public/    (static files like CSS, JS if needed)
 	├── views/     (EJS templates)
-	├── models/    (MongoDB schema files if used)
 	└── README.md  (project info and instructions)
 # Inventory Management System (COMP S381F)
 - Group 20 : 
@@ -15,13 +14,32 @@
 ## Description
 A simple Inventory Management System using Node.js, Express.js, MongoDB, and EJS. It supports user login/logout, item CRUD operations, and session management.
 
-## Technologies Used
+
+## server.js provide main function 
+- Main function
+- Login/Logout , CRUD Page , RESTful API
+- Connect to MongoDB
+
+
+
+## Technologies Used (dependencies)
 - Node.js
 - Express.js
 - MongoDB 4.4
 - EJS Template Engine
 - cookie-session
 - body-parser
+
+
+
+## views folder
+- add.ejs: Page for adding new inventory items
+
+- edit.ejs: Page for editing existing inventory items
+
+- index.ejs: Main page displaying the full inventory list
+
+- login.ejs: User login interface
 
 ## Installation and Setup
 #### 1. Make sure MongoDB server is installed and running:
@@ -36,7 +54,7 @@ A simple Inventory Management System using Node.js, Express.js, MongoDB, and EJS
 #### 4. Access the app in the browser at:
     http://localhost:3000/login
 
-## Usage
+## Userguide 
 - Login with username `admin` and password `password`.
 - Add, edit, and delete inventory items.
 - Logout using the "Logout" link.
@@ -133,5 +151,4 @@ curl https://cloud-demo-group-20.onrender.com/api/items
 
 ---
 
-Let me know if you want a Chinese version or want to include login instructions.
 
