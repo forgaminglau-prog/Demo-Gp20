@@ -57,7 +57,7 @@ A simple Inventory Management System using Node.js, Express.js, MongoDB, and EJS
     http://localhost:3000/login
 
 ## Operation guides 
-- **Login/Logiut pages** 
+- **Login/Logout pages** 
 	- Login with username `admin` and password `password`.
 	  <img width="749" height="379" alt="image" src="https://github.com/user-attachments/assets/d3db16b5-3488-46fb-ad09-7843ec7c375a" />
 	- Logout using the "Logout" button.
