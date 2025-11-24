@@ -1,10 +1,4 @@
-## Structure 
-	S381F-Project-inventory/
-	├── server.js  (main server)
-	├── package.json
-	├── public/    (static files like CSS, JS if needed)
-	├── views/     (EJS templates)
-	└── README.md  (project info and instructions)
+# Part 1. Project info
 # Inventory Management System (COMP S381F)
 - Group 20 : 
 - 13140568 Yu Ching Ting
@@ -14,13 +8,18 @@
 ## Description
 A simple Inventory Management System using Node.js, Express.js, MongoDB, and EJS. It supports user login/logout, item CRUD operations, and session management.
 
-
+# Part 2. Project file intro
+## Structure 
+	S381F-Project-inventory/
+	├── server.js  (main server)
+	├── package.json
+	├── public/    (static files like CSS, JS if needed)
+	├── views/     (EJS templates)
+	└── README.md  (project info and instructions)
 ## server.js provide main function 
 - Main function
 - Login/Logout , CRUD Page , RESTful API
 - Connect to MongoDB
-
-
 
 ## Technologies Used (dependencies)
 - Node.js
@@ -30,9 +29,7 @@ A simple Inventory Management System using Node.js, Express.js, MongoDB, and EJS
 - cookie-session
 - body-parser
 
-
-
-## views folder
+## /views folder
 - add.ejs: Page for adding new inventory items
 
 - edit.ejs: Page for editing existing inventory items
@@ -41,6 +38,11 @@ A simple Inventory Management System using Node.js, Express.js, MongoDB, and EJS
 
 - login.ejs: User login interface
 
+# Part 3. Cloud-based server URL
+## Cloud-based server URL
+- https://cloud-demo-group-20.onrender.com/
+
+# Part 4. Operation guides 
 ## Installation and Setup
 #### 1. Make sure MongoDB server is installed and running:
     sudo systemctl start mongod
@@ -55,13 +57,22 @@ A simple Inventory Management System using Node.js, Express.js, MongoDB, and EJS
     http://localhost:3000/login
 
 ## Operation guides 
-- Login with username `admin` and password `password`.
-- Add, edit, and delete inventory items.
-- Logout using the "Logout" button.
-- Can randomly generate 5/100 items.
+- **Login/Logiut pages** 
+	- Login with username `admin` and password `password`.
+	  <img width="749" height="379" alt="image" src="https://github.com/user-attachments/assets/d3db16b5-3488-46fb-ad09-7843ec7c375a" />
+	- Logout using the "Logout" button.
+- **CRUD web pages**
+	- Inventory List (Read/Search/Edit/Delete inventory item )
+	  <img width="914" height="357" alt="image" src="https://github.com/user-attachments/assets/b4f8a6f7-69b2-47fb-b6fb-fceca475eda3" />
+	- Add /Random generate inventory items.
+	  <img width="930" height="363" alt="image" src="https://github.com/user-attachments/assets/5b906195-9b0c-4c29-9b30-f402c4308d3b" />
+- **Example** 
+	<img width="915" height="828" alt="image" src="https://github.com/user-attachments/assets/747def83-2c32-45ac-b9bb-f41d771f3494" />
 
-## Cloud-based server URL
-- https://cloud-demo-group-20.onrender.com/
+
+
+
+
 
 
 ## Notes
