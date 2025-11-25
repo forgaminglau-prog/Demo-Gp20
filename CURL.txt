@@ -12,7 +12,7 @@ curl -X POST https://cloud-demo-group-20.onrender.com/api/items \
 -d '{"name":"Test Item2","quantity":1000}'
 
 # 2. Read all items (GET)
-curl https://cloud-demo-group-20.onrender.com/api/items
+curl -X GET https://cloud-demo-group-20.onrender.com/api/items
 
 # 3. Read item by ID (Search)
 curl https://cloud-demo-group-20.onrender.com/api/items/
